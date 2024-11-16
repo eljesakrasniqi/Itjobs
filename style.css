@@ -1,0 +1,709 @@
+header,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+@font-face {
+    font-family: "Roboto bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+header ul li {
+    padding-left: 20px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: fixed;
+    left: 70%;
+    top: 2%;
+    list-style-type: none;
+    display: flex;
+}
+
+header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 14px;
+    font-family: "roboto medium";
+    display: flex;
+    font-family: "Roboto Regular";
+}
+
+header ul li a:hover {
+    color: #919191;
+    border-bottom: 1px solid #000000;
+}
+
+header img {
+    width: 130px;
+    border-radius: 18px;
+}
+
+/* main part */
+.main_part .row {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_part .container .row .col{
+    flex-basis: 30%;
+    width: 100%;
+}
+
+.main_part .row .col h1 {
+    font-size: 50px;
+    font-family: "Roboto bold";
+}
+
+.main_part .row .col p {
+    font-size: 25px;
+    font-family: "Montserrat-Medium";
+}
+
+.main_part .row .col a {
+    border: 1px solid #000000;
+    padding: 8px 20px;
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.main_part .row .col a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+/* it */
+.it .container h1{
+    font-size: 38px;
+    padding-bottom: 20px;
+    font-family: "Roboto bold";
+}
+.it .container .row{
+    display: flex;
+    justify-content: space-between;
+}
+.it .container .row .col {
+    flex-basis: 30%;
+    width: 100%;
+}
+.it .container .row .col h2{
+    font-size: 23px;
+    text-align: center;
+    font-family: "roboto medium";
+}
+.it .container .row .col p{
+    font-size: 18px;
+    font-family: "Roboto Regular";
+    padding-bottom: 20px;
+}
+/* jobs */
+.itJobs .row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9b59ff;
+    padding: 30px 240px;
+}
+
+.itJobs .row .col {
+    flex-basis: 10%;
+}
+
+.itJobs .row .col {
+    border: 2px solid transparent;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.itJobs .row .col {
+    text-align: center;
+}
+
+.itJobs .row i {
+    font-size: 23px;
+}
+
+.itJobs .row h4 {
+    text-align: center;
+    color: #5d676e;
+    font-family: "roboto medium";
+}
+
+.itJobs .row .col:hover {
+    transform: scale(1.1);
+}
+.itJobs .row .col a{
+    color: #404243;
+    font-family: "Roboto Regular";
+}
+
+/* helpingPeople */
+.helpingPeople .row {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.helpingPeople .row .col {
+    flex-basis: 40%;
+}
+
+.helpingPeople .row .col {
+    width: 100%;
+}
+
+.helpText {
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 60%;
+    top: 40%;
+}
+
+.helpingPeople .row .col h1 {
+    font-size: 38px;
+    font-family: "Roboto bold";
+}
+
+.helpingPeople .row .col p {
+    font-size: 19px;
+    font-family: "Roboto Regular";
+}
+
+/* learn at school */
+.learnAtSchool .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learnAtSchool .container .row .col {
+    flex-basis: 40%;
+}
+
+.learnAtSchool .container .row .col {
+    width: 100%;
+}
+
+.learnAtSchool .container .row .col h1 {
+    padding-top: 25px;
+    font-size: 38px;
+    font-family: "Roboto bold";
+}
+
+.learnAtSchool .container .row .col p {
+    font-size: 19px;
+    font-family: "Roboto Regular";
+}
+
+.learnText {
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 60%;
+    top: 40%;
+}
+
+.learnButton {
+    text-decoration: none;
+    border: 1px solid #b285f5;
+    padding: 10px 40px;
+    background-color: #b285f5;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 13px;
+}
+
+.learnButton:hover {
+    background-color: #8249F8;
+    color: #ffffff;
+}
+
+/* partners */
+.partners {
+    padding-left: 240px;
+    padding-right: 240px;
+    background: linear-gradient(180deg, #AD1DEB 10%, #6E72FC 60%, rgb(163, 74, 227)  100%);
+}
+
+.partners .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.partners .row .col {
+    flex-basis: 12%;
+}
+
+.partners .row img {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.partners h1 {
+    padding-top: 40px;
+    font-size: 38px;
+    font-family: "Roboto bold";
+}
+
+.partners p {
+    font-size: 20px;
+    width: 40%;
+    font-family: "Roboto Regular";
+}
+
+/* reviews */
+.reviews{
+    background-color: #F0F2F5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+.reviews h1{
+    font-size: 48px;
+    color: #103178;
+    text-align: center;
+    font-family: "roboto_bold";
+}
+.reviews .row{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.reviews .row .col{
+    flex-basis: 21%;
+    width: 100%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 20px;
+}
+.reviews .row .col p{
+    color: #103178;
+    font-size: 18px;
+    font-family: "roboto_regular";
+}
+.reviews .row .col h3{
+    color: #103178;
+    font-size: 18px;
+    font-family: "roboto_medium";
+}
+.reviews .row .col i{
+    display: inline;
+    color: #ffc800;
+}
+/* learn */
+.learn .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn .container .row .col {
+    flex-basis: 25%
+}
+
+.learn .container .row .col a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 23px;
+    font-family: "Roboto medium";
+}
+
+.learn .container h1 {
+    font-size: 38px;
+    padding-top: 40px;
+    font-family: "Roboto bold";
+}
+
+.learn .container .row .col p {
+    font-size: 14px;
+    font-family: "Roboto Regular";
+}
+
+.learn .row .col {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.learn .row .col img {
+    width: 100%;
+}
+
+.learn .row .col:hover {
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.learn .row .col div {
+    padding: 15px;
+}
+
+/* footer */
+footer {
+    background-color: #9b59ff;
+    margin-top: 30px;
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 240px;
+}
+
+footer h4 {
+    font-size: 20px;
+    font-family: "roboto medium";
+}
+
+footer p {
+    font-size: 17px;
+    font-family: "Roboto Regular";
+}
+
+footer i {
+    font-size: 20px;
+    padding: 5px;
+    color: #000000;
+}
+footer a{
+    text-decoration: none;
+}
+footer input {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #9b59ff;
+    border-color: #000000;
+}
+
+footer input::placeholder {
+    color: #000000;
+}
+
+footer input:hover {
+    background-color: #ffffff;
+    border-color: #f60000;
+}
+
+.subscribe {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.subscribe:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.quickLinks {
+    font-size: 18px;
+    padding-bottom: 10px;
+    display: block;
+    color: #000000;
+}
+
+
+@media only screen and (max-width:768px) {
+    .main_part .row {
+        display: block;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header {
+        display: block;
+        position: relative;
+        padding: 0;
+    }
+
+    header ul {
+        display: block;
+        padding: 0;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .main_part img {
+        padding-top: 40px;
+    }
+    /* it */
+    .it .container h1{
+        font-size: 30px;
+    }
+    .it .container .row{
+        display: block;
+    }
+    /* it jobs */
+
+    .itJobs .row {
+        display: block;
+        padding: 0 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .itJobs .row .col {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .itJobs .row .col h4 {
+        font-size: 21px;
+    }
+
+    .itJobs .row .col a {
+        font-size: 23px;
+    }
+
+    /* helpingPeople */
+    .helpingPeople .row {
+        display: block;
+    }
+
+    .helpText h1 {
+        padding-top: 150px;
+    }
+
+    .helpingPeople .container .row .col h1 {
+        font-size: 22px;
+    }
+
+    .helpingPeople .container .row .col p {
+        padding-left: 5px;
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .helpingPeople .container .row .col img {
+        width: 100%;
+    }
+
+    /* learn at school */
+    .learnAtSchool .container .row {
+        display: block;
+    }
+
+    .learnAtSchool .row .col {
+        width: 90%;
+    }
+
+    .learnAtSchool .container .row .col h1 {
+        font-size: 27px;
+    }
+
+    .learnAtSchool .container .row .col p {
+        font-size: 16px;
+        width: 70%;
+        padding-bottom: 10px;
+    }
+
+    .learnAtSchool .container .row .col img {
+        width: 100%;
+    }
+
+    /* learning */
+    .learn .container .row {
+        display: block;
+        width: 100%;
+    }
+
+    .learn .container .row .col {
+        margin-bottom: 30px;
+    }
+
+    .learn .container h1 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    /* partners */
+    .partners {
+        width: 90%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .partners {
+        text-align: center;
+    }
+
+    .partners h1 {
+        font-size: 27px;
+    }
+
+    .partners p {
+        width: 100%;
+    }
+
+    .partners .row {
+        display: block;
+    }
+
+    .partners .row .col img {
+        width: 30%;
+    }
+    /* reviews */
+    .reviews .row{
+        display: block;
+    }
+    .reviews .row .col{
+        margin-bottom: 20px;
+    }
+    /* clients */
+    .clients .container .row {
+        display: block;
+    }
+
+    .clients .container .row .col {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .clients .row .col p {
+        font-size: 20px;
+    }
+
+    footer .row {
+        padding: 30px 15px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1052px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header {
+        display: block;
+        position: relative;
+        padding: 0;
+    }
+
+    header ul {
+        display: block;
+        padding: 0;
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+
+    .main_part .row {
+        display: block;
+    }
+
+    .main_part .row .col h1 {
+        font-size: 32px;
+    }
+
+    .main_part .row .col p {
+        font-size: 18px;
+    }
+
+    .main_part img {
+        padding-top: 60px;
+    }
+    .itJobs .row {
+        display: block;
+    }
+
+    .itJobs .row .col {
+        margin-bottom: 30px;
+    }
+
+    .helpingPeople .row {
+        display: block;
+    }
+
+    .learnAtSchool .container .row {
+        display: block;
+    }
+
+    .learnAtSchool .container .row .col h1 {
+        padding-top: 80px;
+    }
+
+    .learn .container .row {
+        padding-left: 40px;
+        padding-right: 40px;
+        display: block;
+    }
+
+    .learn .container .row .col {
+        margin-bottom: 30px;
+    }
+
+    .clients .container .row {
+        display: block;
+        width: 100%;
+    }
+
+    .clients .container .row .col {
+        margin-bottom: 30px;
+    }
+    .reviews .row{
+        display: block;
+    }
+    .reviews .row .col{
+        margin-bottom: 20px;
+    }
+    footer .row {
+        padding: 10px 15px;
+    }
+}
